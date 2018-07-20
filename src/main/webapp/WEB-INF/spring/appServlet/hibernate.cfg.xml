@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="show_sql">true</property>
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/UserModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CategoryModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SubCategoryModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SchoolModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/WardModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/WardTypeModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/TaxModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ChargeModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ServiceModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CompanyModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/RoomModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/RoomTypeModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ExpensesModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SpecialOfferModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ItemModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ReferalRatesModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ItemPriceModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CustomerModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/NewUserModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/PurchageOrderModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/QuatationModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/InwardModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/InwardDataModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/LandModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/LandPropertyModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ConstructionModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/AgentModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/DealerModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/DealerAdressModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SellingOrderListModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/MyuserModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SubcategorydemoModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/AgentQuationModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ShoperInfoModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SellingOrderListModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ServiceInfoModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/OnlinePurchageModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/ShoperOrderListModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SupplairOrderListModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsStockModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsHomeServiceModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsStockMasterModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsRolesModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/SupplierEmployeeModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsLacs_CardsModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsDiscountsModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsSystemDiscountModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsDiscountCategoryModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsDiscountAreaModal" />
+		<mapping resource="com/cgs/pro94tek/healthcare/modal/CgsItemMeasurmentsModal" />
+		</session-factory>
+</hibernate-configuration>
